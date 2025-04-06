@@ -1,0 +1,25 @@
+{
+    "name": "arman/tsetmcapilaravel",
+    "description": "package tsetmc api php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tsetmcapilaravel\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "fabpot/goutte": "dev-master",
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    },
+    "authors": [
+        {
+            "name": "Arman",
+            "email": "arman.payandeh.2025@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "11.5.x-dev"
+    }
+}
